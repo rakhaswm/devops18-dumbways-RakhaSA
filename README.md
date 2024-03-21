@@ -1,6 +1,6 @@
 DevOps Engineer
 WEEK 1
-	1. Introduction DevOps Engineer
+1. Introduction DevOps Engineer
   2. Networking and VM
 	3. Operating System & Linux Server
 WEEK 2
