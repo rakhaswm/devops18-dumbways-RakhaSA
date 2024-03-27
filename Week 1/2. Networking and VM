@@ -1,1 +1,15 @@
+# Computer Networking
+Merupakan koneksi antara dua komputer atau lebih, yang saling terhubung/terkoneksi dengan media transmisi kabel maupun non kabel (wirelless) agar dapat bertukar informasi/data/resource.
 
+# Network Types
+Jaringan Komputer memiliki beberapa tipe :
+## 1. Jaringan Server-Client
+Server merupakan komputer/perangkat yang menyediakan fasilitas untuk dapat diakses oleh komputer/perangkat lain dalam suatu jaringan.
+Client meruapakan komputer/perangkat yang menerima/menggunakan/memanfaatkan fasilitas yang disediakan oleh server.
+Keunggulan : 
+- Kecepatan akses yang tinggi
+- Keamanan dan backup data lebih baik
+Kelemahan : 
+- Biaya operasional yang mahal
+- Perlu satu komputer khusus untuk menjadi server
+- Keberlangsungan jaringan bergantung pada server
