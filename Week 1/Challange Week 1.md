@@ -44,9 +44,11 @@ ip a
 <img src="../Week 1/image challange/check adapter.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 Lakukan check connection
+
 ```sh
 ping 8.8.8.8
 ```
+
 <p align="center">
 <img src="../Week 1/image challange/check ping.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
