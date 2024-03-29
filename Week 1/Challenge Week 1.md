@@ -17,7 +17,7 @@ hostnamectl
 <img src="../Week 1/image challange/Merubah Hostname.png" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
-#2
+# 2.
 Command untuk merubah nama network adapter
 ```sh
 sudo nano /etc/netplan/00-install-config.yaml
