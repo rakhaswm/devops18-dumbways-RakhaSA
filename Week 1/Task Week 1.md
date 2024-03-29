@@ -9,8 +9,9 @@ Task :
 (Gunakan app.diagrams.net untuk membuat diagramnya, Referensi gambar sudah disertakan)
 4. Buat step-by-step untuk menginstall Virutal Machine via VMware, Virtualbox atau VM pilihan kalian!
 ```
-Answer : 
-1.
+Answer :
+
+1. 
 **Perbedaan IP Privat & Public**
 IP Private	IP Public
 Hanya dapat komukasi antar jaringan lokal	Dapat komunikasi diluar jaringan lokal (internet)
