@@ -26,7 +26,8 @@ IP Dynamic	IP Static
 - Dapat berubah-ubah	Tidak berubah
 - Biasa digunakan oleh rumahan dan kantor	Biasa digunakan oleh bisnis
 
-# 2. **Virtualization** merupakan sebuah teknologi untuk membagi resource yang besar menjadi lebih kecil dan terdapat Hypervisor yang digunakan untuk membuat dan menjalankan virtual machine. 
+# 2. 
+**Virtualization** merupakan sebuah teknologi untuk membagi resource yang besar menjadi lebih kecil dan terdapat Hypervisor yang digunakan untuk membuat dan menjalankan virtual machine. 
 Kelebihan : 
 - kemudahan backup dan recovery 
 - kemudahan deployment (dapat clone sebanyak mungkin dengan konfigurasi system yang sama
