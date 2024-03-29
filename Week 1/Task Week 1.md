@@ -11,28 +11,28 @@ Task :
 ```
 Answer :
 
-1. 
+#1. 
 **Perbedaan IP Privat & Public**
 IP Private	IP Public
-Hanya dapat komukasi antar jaringan lokal	Dapat komunikasi diluar jaringan lokal (internet)
-IP ditetapkan oleh administrator jaringan/perangkat	IP ditetapkan oleh ISP 
-Tidak teridentifikasi di internet	Teridentifikasi di internet
-Unik dalam jaringan lokal	Unik secara global
+- Hanya dapat komukasi antar jaringan lokal	Dapat komunikasi diluar jaringan lokal (internet)
+- IP ditetapkan oleh administrator jaringan/perangkat	IP ditetapkan oleh ISP 
+- Tidak teridentifikasi di internet	Teridentifikasi di internet
+- Unik dalam jaringan lokal	Unik secara global
 
 **Perbedaan IP Dynamic & Static**
 IP Dynamic	IP Static
-IP ditetapkan oleh server DHCP	IP ditetapkan oleh ISP
-Gratis	Berbayar
-Dapat berubah-ubah	Tidak berubah
-Biasa digunakan oleh rumahan dan kantor	Biasa digunakan oleh bisnis
+- IP ditetapkan oleh server DHCP	IP ditetapkan oleh ISP
+- Gratis	Berbayar
+- Dapat berubah-ubah	Tidak berubah
+- Biasa digunakan oleh rumahan dan kantor	Biasa digunakan oleh bisnis
 
-2. **Virtualization** merupakan sebuah teknologi untuk membagi resource yang besar menjadi lebih kecil dan terdapat Hypervisor yang digunakan untuk membuat dan menjalankan virtual machine. 
+#2. **Virtualization** merupakan sebuah teknologi untuk membagi resource yang besar menjadi lebih kecil dan terdapat Hypervisor yang digunakan untuk membuat dan menjalankan virtual machine. 
 Kelebihan : 
--	kemudahan backup dan recovery 
--	kemudahan deployment (dapat clone sebanyak mungkin dengan konfigurasi system yang sama
--	dapat memindahkan virtual machine ke server lain jika terjadi kerusahan hardware.
+- kemudahan backup dan recovery 
+- kemudahan deployment (dapat clone sebanyak mungkin dengan konfigurasi system yang sama
+- dapat memindahkan virtual machine ke server lain jika terjadi kerusahan hardware.
 
-3. Rancangan jaringan spesifikasi
+#3. Rancangan jaringan spesifikasi
 - CIDR Block : 192.168.1.xxx/24
 - Subnet : 255.255.255.0
 - Gateway : 192.168.1.1
@@ -41,7 +41,7 @@ Kelebihan :
 <img src="../Week 1/Rancangan Jaringan.png" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
-4. Step menginstall Virtual Machine dengan VM Ware (OS UBUNTU SERVER)
+#4. Step menginstall Virtual Machine dengan VM Ware (OS UBUNTU SERVER)
 
 **INSTALLATION UBUNTU SERVER**
 1.	Buka Virtual Machine dan klik Create a New Virtual Machine. Lalu nanti akan masuk seperti pada gambar ini dan pilih use ISO image, masukan file ISO Ubuntu serter yang sudah didownload sebelumnya.
