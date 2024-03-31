@@ -25,7 +25,7 @@ Contoh penggunaan :
 cat (file-name)
 ```
 
-<p aligh='center'>
+<p aligh="center">
 <img src="../Week 2/image task2/Cat file.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
@@ -35,7 +35,7 @@ keterangan : untuk melihat isi dari suatu file
 cat > (file-name)
 ```
 
-<p aligh='center'>
+<p aligh="center">
 <img src="../Week 2/image task2/cat - file.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
@@ -45,7 +45,7 @@ keterangan : untuk membuat suatu file baru serta memasukkan teks, Jika sudah men
 cat file1 file2 > file3
 ```
 
-<p aligh='center'>
+<p aligh="center">
 <img src="../Week 2/image task2/cat gabung file.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
@@ -56,9 +56,11 @@ Sed adalah singkatan dari stream editor. Gunanya untuk memanipulasi teks dasar p
 
 Contoh penggunaan :
 
+```sh
 sed -i 's/Hello/Holla/g' file3
+```
 
-<p aligh='center'>
+<p aligh="center">
 <img src="../Week 2/image task2/sed.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
@@ -69,25 +71,31 @@ Grep merupakan perintah untuk melakukan pencarian sebuah text dalam sebuah file 
 
 Contoh penggunaan :
 
+```sh
 grep Dumbways file3
+```
 
-<p aligh='center'>
+<p aligh="center">
 <img src="../Week 2/image task2/grep.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
 keterangan : akan mencari kata Dumbways pada file3
 
+```sh
 grep -c Dumbways file3
+```
 
-<p aligh='center'>
+<p aligh="center">
 <img src="../Week 2/image task2/grep count.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
 keterangan : akan menghitung jumlah kata “Dumbways” pada filetiga
 
+```sh
 grep Dumbways *
+```
 
-<p aligh='center'>
+<p aligh="center">
 <img src="../Week 2/image task2/grep count all direc.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
@@ -98,17 +106,20 @@ Sort untuk mengurutkan data, baik itu secara ascending atau descending.
 
 Berikut adalah contoh penggunaan :
 
+```sh
 sort file4
-
-<p aligh='center'>
+```
+<p aligh="center">
 <img src="../Week 2/image task2/sort ascending.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
 keterangan : untuk mengurutkan berdasarkan ascending
 
+```sh
 sort -r file4
+```
 
-<p aligh='center'>
+<p aligh="center">
 <img src="../Week 2/image task2/sort descending.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
@@ -119,25 +130,31 @@ Echo digunakan untuk mencetak string / pesan dari hasil perintah lain.
 
 Berikut adalah contoh penggunaan
 
+```sh
 echo "Hello Dumbways!"
+```
 
-<p aligh='center'>
+<p aligh="center">
 <img src="../Week 2/image task2/echo text.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
 keterangan : untuk mencetak string **
 
+```sh
 echo "Hello Dumbways!" >> file3
+```
 
-<p aligh='center'>
+<p aligh="center">
 <img src="../Week 2/image task2/addtext with echo.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
 keterangan : untuk mencetak kata Hello Dumbways! di file3
 
+```sh
 echo "Replace semua data" > file5
+```
 
-<p aligh='center'>
+<p aligh="center">
 <img src="../Week 2/image task2/echo replace text.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
@@ -151,7 +168,7 @@ merupakan perintah untuk memonitoring sistem (memory, cpu, swap)
 htop
 ```
 
-<p aligh='center'>
+<p aligh="center">
 <img src="../Week 2/image task2/htop monitoring.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
@@ -159,7 +176,7 @@ lakukan installasi dengan command berikut
 ```sh
 sudo apt install htop -y
 ```
-<p aligh='center'>
+<p aligh="center">
 <img src="../Week 2/image task2/htop.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
@@ -185,7 +202,7 @@ install menggunakan command :
 ```sh
 sudo apt install nmon -y
 ```
-<p aligh='center'>
+<p aligh="center">
 <img src="../Week 2/image task2/install nmon.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
@@ -198,7 +215,7 @@ d adalah Disk
 n adalah network
 Berikut adalah tampilan dari nmon untuk menampilkan cpu, memory, disk, dan network
 
-<p aligh='center'>
+<p aligh="center">
 <img src="../Week 2/image task2/nmon.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
@@ -219,7 +236,7 @@ sleep 2;
 sudo service nginx status;
 sleep 2;
 ```
-<p aligh='center'>
+<p aligh="center">
 <img src="../Week 2/image task2/bash install nginx.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
 
