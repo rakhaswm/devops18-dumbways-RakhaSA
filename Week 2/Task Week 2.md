@@ -1,4 +1,4 @@
-![image](https://github.com/rakhaswm/devops20-dumbways-RakhaSA/assets/56598376/7077f311-563a-4cc0-a536-7a25368b1c63)```sh
+```sh
 Syarat tugas :
 - Membuat repostiory di GitHub dengan nama "devops20-dumbways-<nama>"
 - Membuat folder task per harinya dengan file "README.md" (bisa dibuat per folder/directory)
@@ -204,6 +204,7 @@ Berikut adalah tampilan dari nmon untuk menampilkan cpu, memory, disk, dan netwo
 
 # **4.**
 Create bash script seperti berikut
+
 ```sh
 #Update system
 sudo apt-get update;
@@ -221,8 +222,10 @@ sleep 2;
 <p aligh='center'>
 <img src="../Week 2/image task2/bash install nginx.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
+
 save dengan extension file **nama_File.sh** 
 run file dengan menggunakan command
+
 ```sh
 sh nama_File.sh
 ```
