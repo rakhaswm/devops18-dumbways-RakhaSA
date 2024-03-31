@@ -11,14 +11,20 @@ Task :
 
 ```
 Answer
+
 # **1.**
+
 <p align="center">
 <img src="../Week 2/image task2/direktory.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
 </p>
+
 # **2.**
+
 ## **Teks Manipulation**
+
 merupakan suatu method untuk memanipulasi sebuah file menggunakan terminal tanpa menggunakan teks editor seperti **nano**. Berikut Contoh **Perintah Teks Manipulation**
 **1. cat**
+
 Cat adalah salah satu perintah yang berfungsi untuk membuat daftar konten atau isi file pada standard output (sdout). Yang kalian tahu pasti perintah cat hanya bisa untuk melihat isi dari suatu file, sebenarnya tidak hanya itu.
 
 Contoh penggunaan :
@@ -54,6 +60,7 @@ cat file1 file2 > file3
 keterangan : untuk menggabungkan dua buah file, dan menyimpannya ke dalam file3
 
 **2. sed​**
+
 Sed adalah singkatan dari stream editor. Gunanya untuk memanipulasi teks dasar pada file. Dengan sed kita dapat mengganti teks dengan cepat.
 
 Contoh penggunaan :
@@ -69,6 +76,7 @@ sed -i 's/Hello/Holla/g' file3
 keterangan : mengganti semua kata Hello menjadi Holla pada file3
 
 **3. grep​**
+
 Grep merupakan perintah untuk melakukan pencarian sebuah text dalam sebuah file yang telah dibuat.
 
 Contoh penggunaan :
@@ -104,6 +112,7 @@ grep Dumbways *
 keterangan : akan mencari semua file yang berisikan kata Dumbways
 
 **4. sort​**
+
 Sort untuk mengurutkan data, baik itu secara ascending atau descending.
 
 Berikut adalah contoh penggunaan :
@@ -128,8 +137,8 @@ sort -r file4
 keterangan : untuk mengurutkan berdasarkan descending
 
 **5. echo​**
-Echo digunakan untuk mencetak string / pesan dari hasil perintah lain.
 
+Echo digunakan untuk mencetak string / pesan dari hasil perintah lain.
 Berikut adalah contoh penggunaan
 
 ```sh
@@ -162,6 +171,7 @@ echo "Replace semua data" > file5
 
 keterangan : untuk mereplace semua data di file5 dan menggantinya dengan "Replace semua data"
 # **3.**
+
 **htop**
 
 merupakan perintah untuk memonitoring sistem (memory, cpu, swap)
@@ -175,6 +185,7 @@ htop
 </p>
 
 lakukan installasi dengan command berikut
+
 ```sh
 sudo apt install htop -y
 ```
@@ -194,6 +205,7 @@ Keterangan :
 - Command adalah perintah apa yang sedang di jalankan.
 
 **nmon**
+
 merupakan perintah untuk memonitoring sistem (memory, cpu, swap)
 ```sh
 nmon
@@ -222,6 +234,7 @@ Berikut adalah tampilan dari nmon untuk menampilkan cpu, memory, disk, dan netwo
 </p>
 
 # **4.**
+
 Create bash script seperti berikut
 
 ```sh
