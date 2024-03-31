@@ -227,7 +227,7 @@ Create bash script seperti berikut
 sudo apt-get update;
 sudo apt-get upgrade;
 #install nginx
-sudo apt-get -y nginx;
+sudo apt install nginx -y;
 sleep 2;
 #start nginx
 sudo service nginx start;
