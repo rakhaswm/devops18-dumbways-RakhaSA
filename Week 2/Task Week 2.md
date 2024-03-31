@@ -12,7 +12,9 @@ Task :
 ```
 Answer
 # **1.**
-
+<p align="center">
+<img src="../Week 2/image task2/direktory.JPG" alt="Alt text" title="Client - Server" style="display: inline-block; margin: 0 auto;  max-width: 300px ">
+</p>
 # **2.**
 ## **Teks Manipulation**
 merupakan suatu method untuk memanipulasi sebuah file menggunakan terminal tanpa menggunakan teks editor seperti **nano**. Berikut Contoh **Perintah Teks Manipulation**
